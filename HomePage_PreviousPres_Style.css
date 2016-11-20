@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 23, 2015, 11:48:48 AM
+    Author     : KIT9003
+*/
+texbox:-webkit-input-placeholder {
+    color: #b5b5b5;
+}
+
+textbox-moz-placeholder {
+    color: #b5b5b5;
+}
+.textbox { 
+    background: #FFF url(http://html-generator.weebly.com/files/theme/input-text-9.png) no-repeat 4px 4px; 
+    padding: 15px 25px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9D9E9E;
+    text-shadow: 1px 1px 0 rgba(256, 256, 256, 1.0);
+    border: 1px solid #999; 
+    outline:0; 
+    padding-left: 25px;
+    height:10px; 
+    width: 275px; 
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.50);
+} 
+.textbox:focus {
+    background: #DFE9EC;
+    color: #414848;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+    outline: 0;
+}
+
+.textbox:hover {
+    background: #DFE9EC;
+    color: #414848;
+}
+
+.Search_btn {
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+    text-decoration: inherit;
+    -webkit-border-radius: 8px 8px 8px 8px;
+    -moz-border-radius: 8px 8px 8px 8px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid #469df5;
+    padding: 9px 18px;
+    text-shadow: 1px 1px 0px #287ace;
+    -webkit-box-shadow: inset 1px 1px 0px 0px #cae3fc;
+    -moz-box-shadow: inset 1px 1px 0px 0px #cae3fc;
+    box-shadow: inset 1px 1px 0px 0px #cae3fc;
+    cursor: pointer;
+    color: #ffffff;
+    display: inline-block;
+    background: -webkit-linear-gradient(90deg, #4197ee 5%, #79bbff 100%);
+    background: -moz-linear-gradient(90deg, #4197ee 5%, #79bbff 100%);
+    background: -ms-linear-gradient(90deg, #4197ee 5%, #79bbff 100%);
+    background: linear-gradient(180deg, #79bbff 5%, #4197ee 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#79bbff",endColorstr="#4197ee");
+}
+
+.Search_btn:hover {
+    background: -webkit-linear-gradient(90deg, #79bbff 5%, #4197ee 100%);
+    background: -moz-linear-gradient(90deg, #79bbff 5%, #4197ee 100%);
+    background: -ms-linear-gradient(90deg, #79bbff 5%, #4197ee 100%);
+    background: linear-gradient(180deg, #4197ee 5%, #79bbff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4197ee",endColorstr="#79bbff");
+}
+
+.Search_btn:active {
+    position:relative;
+    top: 1px;
+}
+.labels{
+    border: 2px;
+}
+
+

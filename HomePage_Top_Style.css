@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2015, 3:59:47 PM
+    Author     : KIT9003
+*/
+
+h1 {
+	font-size : 40px;
+    text-shadow: 5px 5px 5px #FF0000;   
+    color: #FF3300;
+    -webkit-animation: colorChange 3s; /* Chrome, Safari, Opera */
+	-webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+	-webkit-animation-play-state: running;
+	-webkit-animation-duration: 3s;
+    
+	
+}
+@-webkit-keyframes colorChange {
+    from {color: #FF3300;}
+    to {color: white;}
+}
+body  {
+    background-image: url("images/medicaltop3.png");
+	position:top;
+    background-color: #cccccc;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+table{
+    padding:0;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	float:left;
+	display:block;
+}
+a:link , a:visited{
+	display:block;
+	width:200px;
+	background-color:RoyalBlue;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+}
+a:hover, a:active{
+	background-color:Brown;
+}

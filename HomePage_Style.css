@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2015, 4:04:49 PM
+    Author     : KIT9003
+*/
+
+body {
+}
+div:hover{
+    background-color: beige;
+}
+div{
+    font-size:20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+a:link , a:visited{
+	display:block;
+	width:250px;
+	background-color:RoyalBlue;
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:15px;
+}
+a:hover, a:active{
+	background-color:Brown;
+}
